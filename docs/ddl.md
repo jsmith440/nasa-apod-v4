@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS `Apod`
     `description` TEXT                              NOT NULL,
     `copyright`   TEXT,
     `media_type`  INTEGER                           NOT NULL,
-    `url`         TEXT                              NOT NULL,
+    `url`         TEXT                     ~~~~         NOT NULL,
     `hd_url`      TEXT
 );
 
